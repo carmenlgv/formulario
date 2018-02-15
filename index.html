@@ -3,15 +3,60 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <section>
-<form action="#" method="post">
+  <form action="#" method="post">
+    <div class="two-columns">
+      <div class="input-group">
+        <label for="name">Name:</label>
+  <input type="text" name="name" id="name" placeholder="Pick a name">
+          <label for="lastname">Lastname:</label>
+    <input type="text" name="lastname" id="lastname" placeholder="Pick a lastname">
+    </div>
+    <div class="input-group">
   <label for="username">Username:</label>
-  <input type="text" name="email" id="email" placeholder="Pick a email">
+  <input type="text" name="username" id="username" placeholder="Pick a username">
   <label for="email">Email:</label>
-    <input type="text" name="password" id="password" placeholder="Pick a password">
+  <input type="text" name="email" id="email" placeholder="you@example.com">
   <label for="password">Password:</label>
-  </section>
+  <input type="text" name="password" id="password" placeholder="Create a password">
+</div>
+</div>
+<label for="avatar">Upload your picture</label>
+<input type="file" name="avatar" value="avatar" accept="image/jpeg">
+<fieldset>
+  <legend>Select your sex</legend>
+  <input type="radio" name="sex" id="fem" value="f">
+  <label for="fem">Female</label>
+  <input type="radio" name="sex" id="male" value="m">
+  <label for="male">Male</label>
+</fieldset>
+<fieldset>
+  <input type="checkbox" name="sex" id="p1" value="p1">
+  <label for="p3">Preference 1</label>
+  <input type="checkbox" name="sex" id="p2" value="p2">
+  <label for="p3">Preference 2</label>
+  <input type="checkbox" name="sex" id="p3" value="p3">
+  <label for="p3">Preference 3</label>
+</fieldset>
+<label for="birthday">Select your birthday</label>
+<input type="date" name="birthday" value="birthday">
+<label for="awake">Awake time</label>
+<input type="time" name="awake" value="awake">
+<label for="service">Grade the service</label>
+<input type="range" name="service" value="service">
+<label for="age">Age</label>
+<input type="number" name="age" value="18">
+<label for="fb">Facebook URL</label>
+<input type="url" name="fb" value="fb">
+<label for="tel">Phone</label>
+<input type="tel" name="tel" value="tel">
+
+  <button type="submit" name="button">Sign up</button>
+
+</form>
+</section>
 </body>
 </html>
