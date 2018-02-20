@@ -1,62 +1,76 @@
 <!DOCTYPE html>
-<html
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" href="css/main.css">
+<html <head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
   <section>
-  <form action="#" method="post">
-    <div class="two-columns">
-      <div class="input-group">
-        <label for="name">Name:</label>
-  <input type="text" name="name" id="name" placeholder="Pick a name">
+    <form action="#" method="post" enctype="multipart/form-data">
+      <div class="two-columns">
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Pick a name">
+
+        </div>
+        <div class="input-group">
           <label for="lastname">Lastname:</label>
-    <input type="text" name="lastname" id="lastname" placeholder="Pick a lastname">
-    </div>
-    <div class="input-group">
-  <label for="username">Username:</label>
-  <input type="text" name="username" id="username" placeholder="Pick a username">
-  <label for="email">Email:</label>
-  <input type="text" name="email" id="email" placeholder="you@example.com">
-  <label for="password">Password:</label>
-  <input type="text" name="password" id="password" placeholder="Create a password">
-</div>
-</div>
-<label for="avatar">Upload your picture</label>
-<input type="file" name="avatar" value="avatar" accept="image/jpeg">
-<fieldset>
-  <legend>Select your sex</legend>
-  <input type="radio" name="sex" id="fem" value="f">
-  <label for="fem">Female</label>
-  <input type="radio" name="sex" id="male" value="m">
-  <label for="male">Male</label>
-</fieldset>
-<fieldset>
-  <input type="checkbox" name="sex" id="p1" value="p1">
-  <label for="p3">Preference 1</label>
-  <input type="checkbox" name="sex" id="p2" value="p2">
-  <label for="p3">Preference 2</label>
-  <input type="checkbox" name="sex" id="p3" value="p3">
-  <label for="p3">Preference 3</label>
-</fieldset>
-<label for="birthday">Select your birthday</label>
-<input type="date" name="birthday" value="birthday">
-<label for="awake">Awake time</label>
-<input type="time" name="awake" value="awake">
-<label for="service">Grade the service</label>
-<input type="range" name="service" value="service">
-<label for="age">Age</label>
-<input type="number" name="age" value="18">
-<label for="fb">Facebook URL</label>
-<input type="url" name="fb" value="fb">
-<label for="tel">Phone</label>
-<input type="tel" name="tel" value="tel">
+          <input type="text" name="lastname" id="lastname" placeholder="Pick a lastname">
+        </div>
+      </div>
+      <form class="" action="index.html" method="post">
+        <input type="search" name="search">
+        <button type="button" name="button">Search</button>
+      </form>
+  </section>
+  <section>
+    <form class="" action="index.html" method="post">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" placeholder="Pick a username">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="you@example.com">
+      <label for="password">Password:</label>
+      <input type="text" name="password" id="password" placeholder="Create a password">
 
-  <button type="submit" name="button">Sign up</button>
+      <label for="avatar">Upload your picture</label>
+      <input type="file" name="avatar" value="avatar" accept="image/jpeg">
 
-</form>
-</section>
+      <fieldset>
+        <legend>Select your sex</legend>
+        <input type="radio" name="sex" id="fem" value="f">
+        <label for="fem">Female</label>
+        <input type="radio" name="sex" id="male" value="m">
+        <label for="male">Male</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select all your preferences</legend>
+        <input type="checkbox" name="sex" id="p1" value="p1">
+        <label for="p3">Preference 1</label>
+        <input type="checkbox" name="sex" id="p2" value="p2">
+        <label for="p3">Preference 2</label>
+        <input type="checkbox" name="sex" id="p3" value="p3">
+        <label for="p3">Preference 3</label>
+      </fieldset>
+
+      <label for="birthday">Select your birthday</label>
+      <input type="date" name="birthday" id="birthday">
+      <label for="awake">Awake time</label>
+      <input type="time" name="awake" id="awake">
+      <label for="service">Grade the service</label>
+      <input type="range" name="service" id="service" min="5" max="20" step="2">
+      <label for="age">Age</label>
+      <input type="number" name="age" id="18" min="18">
+      <label for="fb">Facebook URL</label>
+      <input type="url" name="fb" id="fb">
+      <label for="tel">Phone</label>
+      <input type="tel" name="tel" id="tel">
+      <label for="color">Favorite color</label>
+      <input type="color" name="color" id="color">
+      <button type="submit" name="button">Sign up</button>
+    </form>
+  </section>
 </body>
+
 </html>

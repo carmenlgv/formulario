@@ -1,27 +1,26 @@
-section{
-    display: flex;
-    justify-content: center;
+section
+{
+    display: flex;  justify-content: center;
 }
-form{
-  width: 380px;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
+form
+{
+    display: flex;  flex-direction: column;  width: 380px;  border: 1px solid;
 }
-.two-columns{
-  display: flex;
-  flex-basis: wrap;
-  }
-.two-columns>*{
-  width: 47%;
+.two-columns
+{
+    display: flex;  flex-basis: wrap;
+}
+.two-columns > *
+{
+    width: 47%;
 }
 
-input{
-  border-radius: 5px;
-  border: 1px solid grey;
-  padding: 15px;
-  margin-top: 5px;
+input
+{
+    margin-top: 5px;     padding: 15px;  border: 1px solid grey;
+    border-radius: 5px;
 }
-button{
-width: 100%;
+button
+{
+    width: 100%;
 }
